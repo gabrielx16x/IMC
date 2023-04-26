@@ -1,0 +1,28 @@
+ol,ul{
+    list-style: decimal;
+    font-family: Roboto, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: block;
+    font-family: Roboto, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-align:justify;
+}
+
+html {
+    
+    text-size-adjust: 100%;
+    user-select: none;
+}

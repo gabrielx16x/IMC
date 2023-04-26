@@ -1,0 +1,45 @@
+body{
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-color: #ADFF2F;}
+/* Estilos para a figurinha de magro */
+.magro {
+    background-image: url('magro.png');
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Estilos para a figurinha de normal */
+  .normal {
+    background-image: url('normal.png');
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Estilos para a figurinha de sobrepeso */
+  .sobrepeso {
+    background-image: url('sobrepeso.png');
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Estilos para a figurinha de obesidade I */
+  .obesidade1 {
+    background-image: url('obesidade1.png');
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Estilos para a figurinha de obesidade II */
+  .obesidade2 {
+    background-image: url('obesidade2.png');
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Estilos para a figurinha de obesidade III */
+  .obesidade3 {
+    background-image: url('obesidade3.png');
+    width: 100px;
+    height: 100px;
+  }
+  
