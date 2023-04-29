@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora para Adulto</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="../js/calc_adulto.js"></script>
+        <link rel="stylesheet" href="../css/calc_adulto.css">
+        <link rel="icon" type="image/x-icon" href="../img/icon-imc.png">
+        <title>Calcule seu IMC</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li class="opc"><a href="../index.html" class="opc">Inicio</a></li>
+                    <li class="opc"><a href="imc.html" class="opc">Sobre o IMC</a></li>
+                    <li class="opc"><a href="calc_idoso.html" class="opc">Calculadora Idoso</a></li>
+                    <li class="opc"><a href="beneficios.html" class="opc">Benefícios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Calcule seu IMC Adulto</h1>
+        <div class="principal">
+            <div class="geral">
+                <h3>Altura (m)</h3>
+                <input type="number" placeholder="ex: 1.79" id="altura">
+                <h3>Peso (kg)</h3>
+                <input type="number" placeholder="ex: 76.3" id="peso"><br>
+                <h4 id="imc">Seu IMC é: </h4>
+                <h4 type="text" id="qualimc"><br></h4>
+                <button id="butao" type="button" onclick="calc_imc()">Calcular IMC</button>
+            </div>
+            <br>
+            <div class="nova">
+                <img id="img">
+            </div>
+        </div>
+    </body>
 </html>
