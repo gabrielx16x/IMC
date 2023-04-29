@@ -1,7 +1,7 @@
 const sections = document.querySelectorAll('.section');
 sections.forEach(section => {
   section.addEventListener('mouseenter', () => {
-    section.stylle.backgroundColor = '#ddd';
+    section.style.backgroundColor = '#ddd';
   });
   section.addEventListener('mouseleave', () => {
     section.style.backgroundColor = '#eee';
