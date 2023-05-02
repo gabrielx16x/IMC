@@ -54,9 +54,8 @@ h1{
 }
 .principal{
     display: flex;
-    align-items: center;
     text-align: center;
-    margin-left: 570px;
+    justify-content: center;
 }
 .geral{
     text-align: center;

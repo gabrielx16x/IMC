@@ -57,7 +57,8 @@ h1{
 .principal{
     display: flex;
     text-align: center;
-    margin-left: 570px;
+
+    justify-content: center;
 }
 .nova{
     display: flex;
